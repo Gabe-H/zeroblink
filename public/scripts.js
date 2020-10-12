@@ -2,23 +2,23 @@ var url = 'http://192.168.0.50:8888'
 
 $("#on").click(() => {
     console.log('on clicked');
-    test()
+    sendOn()
 });
 $("#off").click(() => {
     console.log('off clicked');
-    test()
+    sendOff()
 });
 
 function sendOn() {
     $.ajax({
         type: 'GET',
-        url: url+'/start'
+        url: url+'/on'
     })
 }
 function sendOff() {
     $.ajax({
         type: 'GET',
-        url: url+'/stop'
+        url: url+'/off'
     })
 }
 function test() {

@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "onoff": "^6.0.1"
   },
   "name": "zeroblink",
   "version": "1.0.0",
