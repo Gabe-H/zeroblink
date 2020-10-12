@@ -1,0 +1,14 @@
+.button {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.button:active {
+    background-color: lightgrey;
+}
+
+#toggle {
+    position: absolute;
+    left: 60px;
+}
